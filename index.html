@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
   <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
@@ -28,12 +29,12 @@
       </nav>
     </header>
 
-    <section class="slider">
+     <section class="slider">
       <div class="slider__item" style="background-image: url(images/slider-item.jpg);"></div>
       <div class="slider__item" style="background-image: url(images/slider-item1.jpg);" ></div>
       <div class="slider__item" style="background-image: url(images/slider-item2.jpg);" ></div>
     </section>
-
+    
     <section class="search">
      
         <div class="search__inner">
@@ -51,38 +52,27 @@
       </h3>
 
       <div class="container">
-
         <div class="popular__inner">
           <div class="popular__item">
             <img class="popular__img" src="images/popular-1.jpg" alt="">
             <h5 class="popular__item-title">Апартаменты <br> Москва</h5>
             <a class="popular__link" href="#">детали</a>
           </div>
-        
-        
-        
           <div class="popular__item">
             <img class="popular__img" src="images/popular-2.jpg" alt="">
             <h5 class="popular__item-title">Апартаменты <br> Киев</h5>
             <a class="popular__link" href="#">детали</a>
           </div>
-       
-
-        
           <div class="popular__item">
             <img class="popular__img" src="images/popular-3.jpg" alt="">
             <h5 class="popular__item-title">Коттедж Modern <br> Лос Анджелес</h5>
             <a class="popular__link" href="#">детали</a>
           </div>
-        
-
-        
           <div class="popular__item">
             <img class="popular__img" src="images/popular-4.jpg" alt="">
             <h5 class="popular__item-title">Коттедж Семейный <br> Лондон</h5>
             <a class="popular__link" href="#">детали</a>
-          </div>
-        
+          </div> 
       </div>
     </section>
 
@@ -160,10 +150,14 @@
 
           <div class="reviews">
             <h4 class="about__title">Отзывы</h4>
+           <div class="reviews__img-box">
             <img class="reviews__img" src="images/reviews.jpg" alt="">
+           </div>
             <p class="reviews__text">Это лучший сервис по подбору 
               аппартаментов. Пользуюсь услугами To rent уже 5 лет. Всегда идеально и именно то, что мне нужно.</p>
-              <a class="reviews__link"  href="#">Еще отзывы</a>
+              <div class="reviews__btn">
+                <a class="reviews__link"  href="#">Еще отзывы</a>
+              </div>
           </div>
         </div>
       </div>
@@ -188,7 +182,12 @@
           </div>
         </div>
       </div>
-    </footer>
+      <div class="logo footer__logo">
+        <a href="#" class="logo__link">
+          <img src="images/logo.svg" alt="logo" class="logo__link-img">
+        </a>
+      </div>
+    </footer> 
 
 
 
